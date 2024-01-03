@@ -1,25 +1,14 @@
 # Countdown Timer App
-The Countdown Timer app developed using Android Jetpack Compose.
 
-## Screenshots
-<img align="left" src="./results/screenshot_1.png" width="300" height="500">
-<p align="center">
-<img src="./results/screenshot_2.png" width="300" height="500">
-</p>
+The Requirement is to create an Android project using Jetpack Compose (including a ViewModel) that shows a 1-minute countdown including seconds and milliseconds.
 
-## License
-```
-Copyright 2020 The Android Open Source Project
+1. One label that shows the current timer value
+2. Two buttons that can be clicked to start/pause and stop the timer
+3. The view shows an animated ring around the text and the button that shows the current state of the timer
+4. The timer should work correctly when the app is in the background
+5. The ViewModel should use Flows / StateFlows for the implementation of the logic
+6. The ViewModel should be created by dependency injection with Koin
+7. The app should post a system notification when the timer ends if the app is in the background
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
 
-    https://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+   There is a explanation video for how I completed this taks  : https://photos.app.goo.gl/LtJBzsX5AuP6z9Fa8
